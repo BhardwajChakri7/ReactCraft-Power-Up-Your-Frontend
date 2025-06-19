@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://unpkg.com/react@17.0.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone@7.12.4/babel.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      const fullName = (user) => user.firstName + " " + user.lastName;
+      const user = { firstName: "Rahul ", lastName: "Attuluri" };
+      const element = <h1 className="greeting"> Hello, {fullName(user)}!</h1>;
+      ReactDOM.render(element, document.getElementById("root"));
+    </script>
+    <script type="text/babel">
+      const fullName = (render) =>render.firstrender + " "+render.secondrender;
+      const render ={firstrender:"Bhardwaj",secondrender:"Chakri"};
+      const classrender = "main-heading"
+      const element = <h1 className={classrender}>Hello {fullName(render)}</h1>
+      ReactDOM.render(element,document.getElementById("root"))
+    </script>
+    <script type="text/javascript">
+      const rootElement = document.getElementById("root");
+      const element = document.createElement("h1");
+      element.textContent = "Hello World!";
+      element.classList.add("greeting");
+      rootElement.appendChild(element);
+    </script> 
+     <script type="module">
+      const elementProps = {className:"main-heading",children:"Hello World!"}
+      const elementTag = "h1"
+      const element = React.createElement(elementTag,elementProps)
+      ReactDOM.render(element,document.getElementById("root"))
+    </script>
+  </body>
+</html>
