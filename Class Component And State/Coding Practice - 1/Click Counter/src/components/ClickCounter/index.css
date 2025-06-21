@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.main-bg-container {
+  background-color: #f1f5f8;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-heading {
+  color: #2d3a35;
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.count-ele {
+  color: #c20a72;
+}
+
+.main-para {
+  color: #2d3a35;
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+.main-button {
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #007bff;
+  font-family: Robboto;
+  padding: 2px;
+  border-style: none;
+  border-width: none;
+  border-radius: 5px;
+  width: 120px;
+  height: 40px;
+}
