@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.main-bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-bg-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 80vh;
+  width: 80vw;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #0f172a;
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.sub-para1 {
+  color: #334155;
+  font-size: 30px;
+  font-family: Roboto;
+}
+.main-button {
+  border-radius: 4px;
+  border-width: none;
+  color: #0f172a;
+  font-family: Roboto;
+  cursor: pointer;
+  height: 40px;
+  width: 150px;
+  border-style: none;
+  font-size: 15px;
+  font-weight: 600;
+}
+.sub-para2 {
+  color: #334155;
+  font-size: 15pxpx;
+  font-family: Roboto;
+}
