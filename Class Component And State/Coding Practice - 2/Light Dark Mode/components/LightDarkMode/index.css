@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.main-bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-bg-container-1 {
+  border-width: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 30vw;
+}
+.sub-bg-container-2 {
+  border-width: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 30vw;
+}
+.main-heading1 {
+  color: #000000;
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.main-heading2 {
+  color: #ffffff;
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: bold;
+}
+.main-button {
+  border-width: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #000000;
+  color: #000000;
+  font-size: 15px;
+  height: 40px;
+  width: 120px;
+}
