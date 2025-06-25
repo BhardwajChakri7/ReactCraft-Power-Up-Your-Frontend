@@ -1,0 +1,25 @@
+/* Write your CSS here */
+.main-para {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.main-button {
+  margin-top: 17px;
+  color: #ff0b37;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  font-size: 15px;
+  border-color: #ff0b37;
+  height: 30px;
+  width: 100px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.main-bg {
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+  width: 60vw;
+}
