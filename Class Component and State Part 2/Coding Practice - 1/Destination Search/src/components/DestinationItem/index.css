@@ -1,0 +1,20 @@
+.destination-item {
+  width: 45%;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.destination-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.destination-name {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #000000;
+}
