@@ -1,0 +1,109 @@
+/* Write your CSS here */
+.main-bg-container {
+  background-color: #d4d2db;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-bg-container {
+  background-color: #150b3e;
+  height: 80vh;
+  width: 40vw;
+  border-radius: 20px;
+  padding: 60px;
+}
+.account-symbaol {
+  text-align: center;
+  padding-top: 19px;
+  font-size: 17px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #7c3aed;
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  background-color: #c7d2fe;
+}
+.account-name {
+  padding-top: 15px;
+  padding-left: 30px;
+  color: #c7d2fe;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.profile-details {
+  display: flex;
+  padding-bottom: 0px;
+}
+.Account-balance {
+  padding-top: 24px;
+  color: #585076;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.balance-amount {
+  color: #d4d2db;
+  font-size: 40px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.currency-type {
+  color: #585076;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: -30px;
+}
+.amount-details {
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+}
+.withdraw-heading {
+  color: #d4d2db;
+  font-size: 30px;
+  font-weight: 600;
+}
+.withdraw-para {
+  padding-top: 10px;
+  color: #585076;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.button-container {
+  flex-wrap: wrap;
+}
+.button-element-1 {
+  justify-content: space-between;
+  color: #d4d2db;
+  font-size: 30px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #d4d2db;
+  background-color: #585076;
+  cursor: pointer;
+  width: 230px;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.button-element-2 {
+  justify-content: space-between;
+  color: #d4d2db;
+  font-size: 30px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  border-width: 3px;
+  border-color: #d4d2db;
+  background-color: #585076;
+  cursor: pointer;
+  width: 210px;
+  height: 40px;
+  margin-left: 20px;
+}
