@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.main-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+  background-size: cover;
+}
+.sub-bg-container {
+  background-color: #ffffff;
+  padding: 30px;
+  padding-left: 80px;
+  border-radius: 20px;
+  height: 40vh;
+  width: 50vw;
+}
+.main-heading {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 600;
+}
+.form-element {
+  border-radius: 5px;
+  width: 180px;
+  height: 30px;
+  font-size: 17px;
+  font-weight: 600;
+  padding-left: 10px;
+  margin-right: 10px;
+}
+.label-element {
+  font-size: 17px;
+  font-weight: 600;
+}
+.ans-heading-ele {
+  padding-top: 20px;
+  color: #1e293b;
+  font-size: 25px;
+  font-weight: 600;
+}
