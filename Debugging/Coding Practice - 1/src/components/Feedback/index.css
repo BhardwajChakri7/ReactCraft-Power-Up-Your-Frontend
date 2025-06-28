@@ -1,0 +1,74 @@
+.main-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffeeee;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+}
+
+.sub-bg-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 40px 30px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.main-heading {
+  font-size: 24px;
+  color: #1e293b;
+  margin-bottom: 30px;
+}
+
+.emojis-container {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.emoji-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.emojis {
+  width: 50px;
+  height: 50px;
+}
+
+.emoji-name {
+  font-size: 14px;
+  color: #334155;
+  margin-top: 8px;
+}
+
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.love-emoji {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.thank-you-heading {
+  font-size: 22px;
+  color: #1e293b;
+  margin-bottom: 10px;
+}
+
+.thank-you-text {
+  font-size: 16px;
+  color: #64748b;
+  text-align: center;
+  max-width: 350px;
+}
