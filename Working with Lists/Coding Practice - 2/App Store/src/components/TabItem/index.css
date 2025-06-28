@@ -1,0 +1,18 @@
+/* Write your CSS here */
+.main-button {
+  background-color: transparent;
+  font-size: 20px;
+  border-style: solid;
+  border-color: #7b8794;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+  color: #7b8794;
+  width: 100px;
+}
+.main-tab-btn {
+  height: 200px;
+  border-color: #2563eb;
+  color: #2563eb;
+}
