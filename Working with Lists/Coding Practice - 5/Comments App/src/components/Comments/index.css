@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.main-bg-container {
+  background-color: #dee0e3;
+  min-height: 100vh;
+  background-size: cover;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+}
+.sub-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.main-heading {
+  color: #1e293b;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.main-para {
+  color: #1e293b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.name-input-area {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  outline: none;
+  padding-left: 10px;
+}
+.input-area {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.comment-text-area {
+  outline: none;
+  padding-left: 20px;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.comment-img {
+  padding-top: 90px;
+  width: 400px;
+  height: 430px;
+}
+.main-button {
+  width: 130px;
+  height: 33px;
+  background-color: #0284c7;
+  color: #dee0e3;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.line-sperater {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 2px;
+  color: #94a3b8;
+  width: 65vw;
+}
+.comment-heading {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+.comments-container {
+  margin-left: 18vw;
+}
+.comments-count {
+  padding-right: 8px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 30px;
+  height: 20px;
+  background-color: #0284c7;
+  color: #dee0e3;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 5px;
+}
