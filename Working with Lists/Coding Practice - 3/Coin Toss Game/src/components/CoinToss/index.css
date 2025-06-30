@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.main-bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sub-bg-container {
+  background-color: #ffffff;
+  width: 30vw;
+  height: 80vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #a35200;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.main-para {
+  color: #334155;
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.coin-img {
+  height: 200px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+.main-button {
+  border: none;
+  background-color: #f9d423;
+  color: #a35200;
+  height: 30px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+  width: 100px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.count-details {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+}
+.totalCount {
+  font-size: 20px;
+  padding-right: 40px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.tailsCount {
+  font-size: 20px;
+  padding-right: 40px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.headsCount {
+  font-size: 20px;
+  padding-right: 40px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
