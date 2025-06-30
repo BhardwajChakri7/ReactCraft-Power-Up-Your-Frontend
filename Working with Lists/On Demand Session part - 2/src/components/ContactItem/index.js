@@ -1,6 +1,6 @@
 import './index.css'
 
-const ContactItem = props => {
+const ContactItem =(props)=> {
   const {contactDetails, toggleIsFavorite} = props
   const {name, mobileNo, isFavorite, id} = contactDetails
 
