@@ -1,0 +1,6 @@
+/* Write your CSS code here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
