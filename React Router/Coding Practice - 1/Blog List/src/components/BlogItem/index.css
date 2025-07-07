@@ -1,0 +1,7 @@
+/* Write your CSS code here */
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70vw;
+  flex-wrap: wrap;
+}
