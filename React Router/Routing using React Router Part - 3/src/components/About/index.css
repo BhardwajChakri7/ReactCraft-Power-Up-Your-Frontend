@@ -1,15 +1,21 @@
-import './index.css'
-
-const About = () => (
-  <div className="about-container">
-    <img
-      src="https://assets.ccbp.in/frontend/react-js/about-blog-img.png"
-      alt="about"
-      className="about-img"
-    />
-    <h1 className="about-heading">About</h1>
-    <p className="about-paragraph">All about Blogs of frontend developers</p>
-  </div>
-)
-
-export default About
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.about-img {
+  width: 150px;
+}
+.about-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #3d3d3d;
+}
+.about-paragraph {
+  font-family: 'Roboto';
+  font-size: 20px;
+  text-align: center;
+  color: #555555;
+}
