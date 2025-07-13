@@ -1,0 +1,27 @@
+.team-card-container {
+  height: 160px;
+  width: 400px;
+  border: 1px solid #ffffff;
+  background-color: #4755692e; /* black with 50% opacity */
+
+  display: flex;
+  align-items: center;
+  margin: 13px;
+  padding: 15px;
+  border-radius: 20px;
+}
+.ipl-tem-logo {
+  height: 100px;
+  width: 120px;
+  margin-right: 15px;
+}
+.ipl-team-heading {
+  font-family: 'Bree Serif';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+}
+.nav-link {
+  text-decoration: none;
+}
