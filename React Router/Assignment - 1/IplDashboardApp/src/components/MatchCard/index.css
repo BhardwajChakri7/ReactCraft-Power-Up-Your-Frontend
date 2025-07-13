@@ -1,0 +1,29 @@
+.each-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  width: 240px;
+  background-color: #1e293b;
+  height: 400px;
+  border-radius: 50px;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.team-img {
+  height: 120px;
+  width: 70px;
+}
+.match-card-heading {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.match-card-para {
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #ffffff;
+}
