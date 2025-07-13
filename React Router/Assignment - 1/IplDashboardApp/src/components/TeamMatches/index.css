@@ -1,0 +1,36 @@
+.team-matches-bg-container {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: #a4261d;
+  min-height: 100vh;
+  background-size: cover;
+}
+.team-banner {
+  height: 40vh;
+  width: 80vw;
+  border-radius: 10px;
+}
+.team-matches-heading {
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.team-matches-sub-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.match-card-unordered-list {
+  list-style: none;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: -50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
