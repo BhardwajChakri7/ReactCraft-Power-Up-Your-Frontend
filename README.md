@@ -51,7 +51,6 @@ React works well with APIs, charts (like Chart.js), maps (like Leaflet or Google
 
 ```bash
 git clone https://github.com/yourusername/reactcraft.git
-cd reactcraft
 
 npm install
 npm start
