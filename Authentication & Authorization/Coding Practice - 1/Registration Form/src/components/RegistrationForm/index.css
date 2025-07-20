@@ -1,0 +1,104 @@
+/* Write your CSS code here
+.main-bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-heading {
+  color: #ea580c;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 50px;
+}
+.sub-bg-container {
+  height: 45vh;
+  width: 35vw;
+  border-radius: 10px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label-element-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #475569;
+  margin-bottom: 5px;
+}
+.label-input-element {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #9aa5b1;
+  margin-bottom: 5px;
+  width: 300px;
+  height: 35px;
+  border-radius: 5px;
+  border-color: #cbd2d9;
+  border-width: 2px;
+  border-style: solid;
+  padding-left: 10px;
+  outline: none;
+}
+.form-button {
+  margin-top: 20px;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #ea580c;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.form-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: Arial;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.input.error {
+  border-color: red;
+  background-color: #ffe6e6;
+}
+
+.error-text {
+  color: red;
+  margin: 0;
+  font-size: 12px;
+}
+
+button {
+  padding: 10px 16px;
+  background-color: #0284c7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.success-container {
+  text-align: center;
+}
