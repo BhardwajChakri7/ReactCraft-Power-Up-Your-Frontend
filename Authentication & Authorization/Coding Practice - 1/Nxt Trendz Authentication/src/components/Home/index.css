@@ -1,0 +1,36 @@
+.main-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 60px;
+  font-weight: 800;
+  color: #1e293b;
+}
+.main-para {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #64748b;
+  line-height: 40px;
+}
+.main-button {
+  height: 40px;
+  width: 140px;
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.main-image {
+  height: 500px;
+  width: 500px;
+}
