@@ -1,0 +1,15 @@
+.main-bg-contianer {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.home-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+}
