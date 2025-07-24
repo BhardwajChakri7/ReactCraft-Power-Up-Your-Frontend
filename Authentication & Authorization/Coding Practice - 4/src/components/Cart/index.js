@@ -1,21 +1,29 @@
-import {Switch, Route} from 'react-router-dom'
+import {Redirect} from 'react-router-dom'
+import Cookies from 'js-cookie'
 
-import LoginForm from './components/LoginForm'
-import Home from './components/Home'
-import Products from './components/Products'
-import Cart from './components/Cart'
-import NotFound from './components/NotFound'
+import Header from '../Header'
 
-import './App.css'
+import './index.css'
 
-const App = () => (
-  <Switch>
-    <Route exact path="/login" component={LoginForm} />
-    <Route exact path="/" component={Home} />
-    <Route exact path="/products" component={Products} />
-    <Route exact path="/cart" component={Cart} />
-    <Route component={NotFound} />
-  </Switch>
-)
+const Cart = () => {
+  const accessToken = Cookies.get('jwt_token')
 
-export default App
+  if (accessToken === undefined) {
+    return <Redirect to="/login" />
+  }
+
+  return (
+    <>
+      <Header />
+      <div className="cart-container">
+        <img
+          src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-img.png"
+          alt="cart"
+          className="cart-img"
+        />
+      </div>
+    </>
+  )
+}
+
+export default Cart
