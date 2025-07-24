@@ -1,0 +1,12 @@
+.nav-container {
+  display: flex;
+}
+.unordered-container {
+  display: flex;
+  list-style: none;
+}
+.nav-links {
+  padding-right: 10px;
+  font-size: 17px;
+  font-family: 'Roboto';
+}
