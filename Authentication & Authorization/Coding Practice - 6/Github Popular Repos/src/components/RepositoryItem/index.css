@@ -1,0 +1,36 @@
+.card-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  height: 300px;
+  width: 240px;
+}
+.avatars-img {
+  height: 100px;
+  width: 100px;
+}
+.card-name {
+  color: #e73959;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+.stars-img {
+  height: 15px;
+  width: 15px;
+  margin-right: 7px;
+}
+.sub-container {
+  margin-top: -18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.main-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
