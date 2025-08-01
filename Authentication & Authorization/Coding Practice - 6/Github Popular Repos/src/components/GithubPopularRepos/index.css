@@ -1,0 +1,27 @@
+.main-bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.the-main-page-heading {
+  font-family: 'Lobster';
+  font-size: 40px;
+  font-weight: 600;
+  color: #0f172a;
+}
+.unordered-list-navs {
+  margin-top: -1px;
+  list-style: none;
+  display: flex;
+  margin-left: -45px;
+}
+.main-items-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
