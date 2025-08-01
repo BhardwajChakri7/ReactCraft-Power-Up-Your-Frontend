@@ -1,0 +1,25 @@
+.main-list-item {
+  padding: 0px 10px 0px 10px;
+}
+.each-nav-heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: -1px;
+}
+.each-nav-selected-heading {
+  color: #0284c7;
+  margin-top: -1px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 18px;
+  border: 2px solid #0284c7;
+  padding: 0px 15px 0px 15px;
+  border-radius: 50px;
+}
+.main-nav-button {
+  height: 25px;
+  background-color: transparent;
+  border: none;
+}
