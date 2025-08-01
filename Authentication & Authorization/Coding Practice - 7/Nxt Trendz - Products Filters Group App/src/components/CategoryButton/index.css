@@ -1,0 +1,29 @@
+.unordered-list {
+  list-style: none;
+  padding: 0;
+}
+.main-rating-container {
+  display: flex;
+  align-items: center;
+}
+.category-button {
+  background-color: transparent;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 500;
+  color: #64748b;
+}
+.stars-img {
+  width: 130px;
+  height: 22px;
+  margin-right: 10px;
+}
+.category-button-clicked-yes {
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 15px;
+  background-color: transparent;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
